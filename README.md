@@ -1,7 +1,7 @@
 # Sales_Insight_project
 Data analysis project which showcasing Sales Insight analysis using SQL, power BI
- Data Analysis Using SQL
-Show all customer records
+
+1.Data Analysis Using SQL:
 
 SELECT * FROM customers;
 
@@ -37,3 +37,4 @@ Show total revenue in year 2020 in Chennai
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
 
+2.Create Interactive PowerPi Dashboard
